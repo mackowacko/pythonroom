@@ -2,15 +2,16 @@
 
 import turtle
 
-n = 200
-length = 4
+n = 5
+length = 100
 angle = 180 - 180 * (n-2) / n
-numbers = range(0, n)
+#numbers = range(0, n)
+colors = ["red", "yellow", "orange", "magenta", "blue"]
 
 Jose = turtle.Turtle()
 
-for number in numbers:
-	Jose.color("magenta")
+for color in colors:
+	Jose.color(color)
 	Jose.forward(length)
 	Jose.left(angle)
 
