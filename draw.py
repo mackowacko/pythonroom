@@ -2,14 +2,15 @@
 
 import turtle
 
-length = 10
-angle = 10
-numbers = range(0, 360)
+n = 200
+length = 4
+angle = 180 - 180 * (n-2) / n
+numbers = range(0, n)
 
 Jose = turtle.Turtle()
 
 for number in numbers:
-	Jose.color("#X43709F")
+	Jose.color("magenta")
 	Jose.forward(length)
 	Jose.left(angle)
 
