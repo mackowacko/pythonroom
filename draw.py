@@ -5,7 +5,7 @@ import turtle
 length = 75
 angle = 60
 
-Jose = turtle.turtle
+Jose = turtle.Turtle()
 
 Jose.forward(length)
 Jose.left(angle)
