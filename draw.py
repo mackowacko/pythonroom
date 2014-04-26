@@ -1,14 +1,13 @@
-# author: mackowacko
+# author: mackowacko 
 
-import turtle
+colors = ["red", "yellow", "blue", "magenta"]
+angle = 90
+numbers = range (5, 200, 2)
 
-length = 5
-lenghth2 = 10
-angle = 50
-numbers = range (length, length2
 Jose = turtle.Turtle()
 
-for spiral in spirals:
-	Jose.forward(length)
-	Jose.left(angle)
-
+for color in colors:
+	for number in numbers:
+		Jose.forward(number)
+		Jose.left(angle)
+	
